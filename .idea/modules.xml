@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phone_Book.iml" filepath="$PROJECT_DIR$/.idea/modules/Phone_Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phone Book/task/Phone_Book.Phone_Book-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Phone Book/task/Phone_Book.Phone_Book-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phone Book/task/Phone_Book.Phone_Book-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Phone Book/task/Phone_Book.Phone_Book-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phone Book/task/Phone_Book.Phone_Book-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Phone Book/task/Phone_Book.Phone_Book-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Count comparisons/Phone_Book.Problems-Count_comparisons.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Count comparisons/Phone_Book.Problems-Count_comparisons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Count comparisons/Phone_Book.Problems-Count_comparisons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Count comparisons/Phone_Book.Problems-Count_comparisons.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Count comparisons/Phone_Book.Problems-Count_comparisons.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Count comparisons/Phone_Book.Problems-Count_comparisons.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Descending sorting swaps/Phone_Book.Problems-Descending_sorting_swaps.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Descending sorting swaps/Phone_Book.Problems-Descending_sorting_swaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Descending sorting swaps/Phone_Book.Problems-Descending_sorting_swaps.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Descending sorting swaps/Phone_Book.Problems-Descending_sorting_swaps.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Descending sorting swaps/Phone_Book.Problems-Descending_sorting_swaps.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Descending sorting swaps/Phone_Book.Problems-Descending_sorting_swaps.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Find a block that may contain the target value/Phone_Book.Problems-Find_a_block_that_may_contain_the_target_value.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Find a block that may contain the target value/Phone_Book.Problems-Find_a_block_that_may_contain_the_target_value.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Find a block that may contain the target value/Phone_Book.Problems-Find_a_block_that_may_contain_the_target_value.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Find a block that may contain the target value/Phone_Book.Problems-Find_a_block_that_may_contain_the_target_value.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Find a block that may contain the target value/Phone_Book.Problems-Find_a_block_that_may_contain_the_target_value.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Find a block that may contain the target value/Phone_Book.Problems-Find_a_block_that_may_contain_the_target_value.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Heron's formula/Phone_Book.Problems-Heron's_formula.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Heron's formula/Phone_Book.Problems-Heron's_formula.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Heron's formula/Phone_Book.Problems-Heron's_formula.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Heron's formula/Phone_Book.Problems-Heron's_formula.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Heron's formula/Phone_Book.Problems-Heron's_formula.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Heron's formula/Phone_Book.Problems-Heron's_formula.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Pow/Phone_Book.Problems-Pow.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Pow/Phone_Book.Problems-Pow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Pow/Phone_Book.Problems-Pow.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Pow/Phone_Book.Problems-Pow.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Pow/Phone_Book.Problems-Pow.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Pow/Phone_Book.Problems-Pow.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Print comparisons/Phone_Book.Problems-Print_comparisons.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Print comparisons/Phone_Book.Problems-Print_comparisons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Print comparisons/Phone_Book.Problems-Print_comparisons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Print comparisons/Phone_Book.Problems-Print_comparisons.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Print comparisons/Phone_Book.Problems-Print_comparisons.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Print comparisons/Phone_Book.Problems-Print_comparisons.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Swaps/Phone_Book.Problems-Swaps.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Swaps/Phone_Book.Problems-Swaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Swaps/Phone_Book.Problems-Swaps.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Swaps/Phone_Book.Problems-Swaps.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Swaps/Phone_Book.Problems-Swaps.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Swaps/Phone_Book.Problems-Swaps.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The angle between vectors/Phone_Book.Problems-The_angle_between_vectors.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The angle between vectors/Phone_Book.Problems-The_angle_between_vectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The angle between vectors/Phone_Book.Problems-The_angle_between_vectors.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The angle between vectors/Phone_Book.Problems-The_angle_between_vectors.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The angle between vectors/Phone_Book.Problems-The_angle_between_vectors.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The angle between vectors/Phone_Book.Problems-The_angle_between_vectors.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Phone_Book.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Phone_Book.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Phone_Book.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Phone_Book.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Phone_Book.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Phone_Book.util.test.iml" />
+    </modules>
+  </component>
+</project>
