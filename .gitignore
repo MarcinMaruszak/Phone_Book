@@ -1,0 +1,15 @@
+# Project exclude paths
+/.gradle/
+/Phone Book/task/build/
+/Phone Book/task/out/
+/Phone Book/task/out/production/classes/
+/Problems/Count comparisons/out/
+/Problems/Count comparisons/out/production/classes/
+/Problems/Descending sorting swaps/out/
+/Problems/Descending sorting swaps/out/production/classes/
+/Problems/Find a block that may contain the target value/out/
+/Problems/Find a block that may contain the target value/out/production/classes/
+/Problems/Print comparisons/out/
+/Problems/Print comparisons/out/production/classes/
+/Problems/Swaps/out/
+/Problems/Swaps/out/production/classes/

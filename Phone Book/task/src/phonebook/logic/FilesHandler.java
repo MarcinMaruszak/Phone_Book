@@ -9,6 +9,7 @@ public class FilesHandler {
     Scanner scanner;
 
     public FilesHandler() {
+
     }
 
     public void setScanner(String file) throws FileNotFoundException {
