@@ -21,27 +21,34 @@ public class PhoneBook {
 
 
     public void search(String contactsFile, String findFile) {
+        //fillArrays(contactsFile, findFile);
+
         try {
-            fillArrays(contactsFile, findFile);
+            linearSearch(contactsFile, findFile);
 
-            System.out.println("Start searching (linear search)...");
-            Instant start = Instant.now();
-            int found = linearSearch(new ArrayList<>(contacts));
-            Instant end = Instant.now();
-            printLinResults(Duration.between(start, end), found);
-
-            bubblesSortAndJumpSearch(new ArrayList<>(contacts));
+            bubblesSortAndJumpSearch(contactsFile, findFile);
 
             quickSortAndBinarySearch(contactsFile, findFile);
 
             hashSearch(contactsFile);
 
-        } catch (FileNotFoundException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 
-    private void hashSearch(String contactsFile) {
+    private void linearSearch(String contactsFile, String findFile) throws Exception {
+        System.out.println("Start searching (linear search)...");
+
+        Instant start = Instant.now();
+        fillArrays(contactsFile, findFile);
+        int found = linearSearch(contacts);
+        Instant end = Instant.now();
+        printLinResults(Duration.between(start, end), found);
+    }
+
+    private void hashSearch(String contactsFile) throws Exception {
         System.out.println("Start searching (hash table)...");
 
         Duration fillDuration = fillHashTable(contactsFile);
@@ -62,18 +69,12 @@ public class PhoneBook {
                 searchDuration.toMinutes(), searchDuration.toSeconds() % 60, searchDuration.toMillis() % 1000);
     }
 
-    private Duration fillHashTable(String contactsFile) {
-        try {
-            filesHandler.setScanner(contactsFile);
-            Instant start = Instant.now();
-            hashContacts = filesHandler.getHashtable();
-            Instant end = Instant.now();
-            return Duration.between(start, end);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            return Duration.ofMillis(0);
-        }
-
+    private Duration fillHashTable(String contactsFile) throws Exception {
+        filesHandler.setScanner(contactsFile);
+        Instant start = Instant.now();
+        hashContacts = filesHandler.getHashtable();
+        Instant end = Instant.now();
+        return Duration.between(start, end);
     }
 
     private int hashSearch() {
@@ -86,7 +87,7 @@ public class PhoneBook {
         return found;
     }
 
-    private void quickSortAndBinarySearch(String fileName, String findName) {
+    private void quickSortAndBinarySearch(String fileName, String findName) throws Exception {
         System.out.println("Start searching (quick sort + binary search)...");
 
         Duration quickSortDuration = quickSort(fileName, findName);
@@ -131,19 +132,12 @@ public class PhoneBook {
     }
 
 
-    private Duration quickSort(String fileName, String findName) {
-
-        try {
-            Instant start = Instant.now();
-            fillArrays(fileName, findName);
-            quickSort(contacts, 0, contacts.size() - 1);
-            Instant end = Instant.now();
-            return Duration.between(start, end);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            return Duration.ofMillis(0);
-        }
-
+    private Duration quickSort(String fileName, String findName) throws Exception {
+        Instant start = Instant.now();
+        fillArrays(fileName, findName);
+        quickSort(contacts, 0, contacts.size() - 1);
+        Instant end = Instant.now();
+        return Duration.between(start, end);
     }
 
     private void quickSort(ArrayList<String> contacts, int left, int right) {
@@ -198,11 +192,12 @@ public class PhoneBook {
                 duration.toMillis() % 1000);
     }
 
-    private void bubblesSortAndJumpSearch(ArrayList<String> contacts) {
+    private void bubblesSortAndJumpSearch(String contactFile, String findFile) throws Exception {
         System.out.println("Start searching (bubble sort + jump search)...");
         Duration bubbleSortDuration = bubbleSort(contacts);
 
         int found;
+        fillArrays(contactFile, findFile);
         Instant start = Instant.now();
         if (bubbleSortDuration.getSeconds() < 30) {
             found = jumpSearch(contacts);
